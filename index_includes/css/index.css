@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg xmlns%3D%22http%3A//www.w3.org/2000/svg%22 viewBox%3D%220 0 30 30%22%3E%3Cpath stroke%3D%22rgba%280%2C 0%2C 0%2C 1%29%22 stroke-width%3D%222%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E');
+  }
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+ul li a:hover {
+    color: #6256CA;
+}
+
+.colored-last-word .last-word {
+    color:#6256CA;
+  }
+
+.justified-paragraph {
+    font-size:1.3rem;
+  }
+
+.fade-effect {
+    opacity: 0; 
+    transition: opacity 2s ease-in;
+}
+
+.fade-effect.visible {
+    opacity: 1;
+}
+
+.about-section h2 {
+    margin-bottom: 20px; 
+}
+.about-section p {
+    margin-bottom: 10px; 
+}
+.checklist {
+    list-style-type: none;
+    padding: 0; 
+}
+.checklist li {
+    margin-bottom: 10px;
+}
+
+.aboutTitle {
+    font-size: 36px; 
+    margin-bottom: 20px;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
+}
+
+.description p {
+    width: 48%; 
+}
+
+.about-section {
+    padding: 20px 60px; 
+    max-width: 1200px;  
+    margin: 0 auto;     
+    font-size: 18px;
+}
+
+
+
+@media (max-width: 1381px) {
+    .about-section {
+        padding: 40px 30px; 
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px 15px; 
+    }
+}
+
+ 
+@media (max-width: 1199px){
+    .title {
+        font-size:2.9rem;
+    }
+
+    .subHeading {
+        font-size:1.2rem;
+    }
+
+    .description {
+        font-size:1.2rem;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 991px){
+    .title {
+        font-size:2.1rem;
+    }
+
+    .subHeading {
+        font-size:1rem;
+    }
+
+    .description {
+        font-size:1rem;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 430px){
+    .title {
+        font-size:2.1rem;
+    }
+
+    .subHeading {
+        font-size:0.9rem;
+        text-align: justify;
+    }
+
+    .description {
+        font-size:0.9rem;
+        text-align: justify;
+    }
+}
+
+@media (max-width: 767px){
+    .title {
+        text-align: center;
+    }
+}  
+
+@media (min-width: 1199px){
+    .description {
+        font-size:1.2rem;
+        text-align: justify;
+    }
+}
